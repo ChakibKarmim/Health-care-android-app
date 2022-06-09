@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebackground"
+    tools:context=".Profile" >
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="156dp"
+        android:fontFamily="@font/beth_ellen"
+        android:text="Bilan"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F47C7C"
+                android:text="Heart" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F47C7C"
+                android:text="Suivi cardiaque" />
+
+            <Button
+                android:id="@+id/alim"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F47C7C"
+                android:text="Alimentation" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/act_phy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F47C7C"
+                android:text="Activité physique" />
+
+            <Button
+                android:id="@+id/gst_str"
+                android:layout_width="235dp"
+                android:layout_height="46dp"
+                android:backgroundTint="#F47C7C"
+                android:text="Ma gestion de stress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/conso_tabac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F47C7C"
+                android:text="Ma consommation de tabac" />
+
+            <Button
+                android:id="@+id/Hyg_vie"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:backgroundTint="#F47C7C"
+                android:text="Mon hygiéne de vie" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
